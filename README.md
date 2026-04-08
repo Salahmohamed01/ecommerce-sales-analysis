@@ -125,11 +125,16 @@ python scripts/04_sql_analysis.py
 
 The dashboard contains 3 pages:
 
-| Page | Content |
-|------|---------|
-| Sales Overview | KPI cards, monthly trend, top states, payment types |
-| Customer Analysis | Delivery vs satisfaction, order status breakdown |
-| Products & Sellers | Top categories and top sellers by revenue |
+### 📸 Dashboard Preview
+
+**Sales Overview**
+![Sales Overview](output/dashboard/dashboard_sales_overview.png)
+
+**Customer Analysis**
+![Customer Analysis](output/dashboard/dashboard_customer_analysis.png)
+
+**Products & Sellers**
+![Products & Sellers](output/dashboard/dashboard_products_sellers.png)
 
 ---
 
