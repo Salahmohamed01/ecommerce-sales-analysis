@@ -91,8 +91,9 @@ ecommerce-sales-analysis/
 │
 ├── 📂 output/
 │   ├── 📂 plots/                      # Generated visualizations (7 charts)
-│   └── 📂 dashboard/                  # Power BI dashboard screenshots
-│
+│   ├── 📂 dashboard/                  # Power BI dashboard screenshots
+│   └── 📂 cleaned/                    # Cleaned CSV files (not tracked)
+│ 
 ├── 📄 .gitignore
 ├── 📄 LICENSE
 ├── 📄 README.md
