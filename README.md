@@ -46,25 +46,58 @@ The project answers real business questions about sales performance, customer sa
 |------|---------|
 | Python (pandas, matplotlib, seaborn) | Data cleaning & EDA |
 | SQLite | Data storage & SQL analysis |
-| Power BI | Interactive dashboard |
+| Power BI (DAX Measures) | Interactive dashboard |
 | Git & GitHub | Version control |
+
+### 🐍 Python Libraries
+- **pandas** — Data manipulation & cleaning
+- **matplotlib & seaborn** — Data visualization
+- **sqlite3** — Database creation & querying
+- **os** — File path management
+
+### 📊 SQL Queries
+- Overall Business KPIs
+- Monthly Revenue Trend
+- Top 10 Categories by Revenue
+- Avg Delivery Days per Review Score
+- Top 10 States by Revenue
+- Payment Type Breakdown
+- Top 10 Sellers by Revenue
+
+### 📐 DAX Measures (Power BI)
+- `Total Revenue` — SUM of all order prices
+- `Total Orders` — DISTINCTCOUNT of orders
+- `Avg Order Value` — DIVIDE of revenue by orders
+- `Avg Review Score` — AVERAGE of review scores
+- `Total Freight` — SUM of freight values
+- `Avg Item Price` — AVERAGE of item prices
+- `Avg Delivery Days` — AVERAGEX of delivery duration
 
 ---
 
 ## 📁 Project Structure
 
+```
 ecommerce-sales-analysis/
-├── data/
-│   └── raw/                  # Raw CSV files (not tracked)
-├── scripts/
-│   ├── 01_load_data.py       # Load & overview all datasets
-│   ├── 02_clean_data.py      # Data cleaning & preprocessing
-│   ├── 03_eda.py             # Exploratory data analysis & plots
-│   └── 04_sql_analysis.py    # SQL queries & business KPIs
-├── output/
-│   └── plots/                # Generated visualizations
-├── requirements.txt          # Python dependencies
-└── README.md
+│
+├── 📂 data/
+│   └── 📂 raw/                        # Raw CSV files (not tracked)
+│
+├── 📂 scripts/
+│   ├── 📄 01_load_data.py             # Load & overview all datasets
+│   ├── 📄 02_clean_data.py            # Data cleaning & preprocessing
+│   ├── 📄 03_eda.py                   # EDA & visualizations
+│   └── 📄 04_sql_analysis.py          # SQL queries & business KPIs
+│
+├── 📂 output/
+│   ├── 📂 plots/                      # Generated visualizations (7 charts)
+│   └── 📂 dashboard/                  # Power BI dashboard screenshots
+│
+├── 📄 .gitignore
+├── 📄 LICENSE
+├── 📄 README.md
+└── 📄 requirements.txt
+```
 ---
 
 ## 📊 Key Insights
